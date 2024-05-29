@@ -1,0 +1,272 @@
+*{
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+}
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #eee;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navbar-menu:hover{
+  background-color: line;
+}
+
+.navbar-menu li {
+  margin: 0 10px;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.get-certified-button {
+  background-color: #f0b700;
+  color: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.get-certified-button:hover {
+  background-color: #dca600;
+}
+.certification-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: url('background-image-url') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.certification-content {
+  max-width: 600px;
+}
+
+.certification-content h1 {
+  font-size: 2.5em;
+  color: #f0b700;
+}
+
+.certification-content .certification-number {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.certification-content p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+.button-containers {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #f0b700;
+  color: #000;
+  padding: 2px 2px;
+  margin-right: 2px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.buttons {
+  background-color: #2c2c2c;
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #dca600;
+}
+.buttons:hover {
+  background-color: #dca600;
+}
+
+.certification-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background:black;
+}
+
+.hero h2 {
+  margin-top: 0;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  background: #444;
+  color: #eee;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #555;
+}
+.modules-container {
+  padding: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.module {
+  margin-bottom: 10px;
+}
+
+.module input {
+  display: none;
+}
+
+.module label {
+  display: block;
+  background-color: #333;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.module label:hover {
+  background-color: #444;
+}
+
+.module .content {
+  display: none;
+  background-color: #222;
+  padding: 10px 15px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.module input:checked + label + .content {
+  display: block;
+}
+
+.module ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.module ul li {
+  margin: 5px 0;
+}
+
+.module button {
+  background-color: #f0b700;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.module button:hover {
+  background-color: #dca600;
+}
+.close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.About {
+  background-color: black;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  border: 1px solid #ddd;
+}
+.About h2 {
+  margin-top: 0;
+}
+.certifications {
+  background-color:black;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  border: 1px solid #ddd;
+}
+.certifications h2 {
+  margin-top: 0;
+}
+.authorized {
+  background-color: black;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  border: 1px solid #ddd;
+}
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+.prerequisites{
+  background-color: black;
+  color: white;
+}
+.content{
+  background-color: black;
+  color: white;
+}
